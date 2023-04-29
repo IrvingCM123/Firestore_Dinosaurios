@@ -1,12 +1,11 @@
-import { Route, Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/App.css";
 import AddDinosaurio from "../componentes/add-dino.component";
 import DinosauriosList from "../componentes/dinosaurios-list.component";
-import { Component } from "react";
-import { Informacion, Imagen, Alumno } from "./Inicio";
+import { Imagen, Alumno } from "./Inicio";
 import Header from "./Header";
-import { Router, Switch } from "react-router-dom/cjs/react-router-dom.min";
+import {Switch } from "react-router-dom/cjs/react-router-dom.min";
 
 const App = () => {
   return (

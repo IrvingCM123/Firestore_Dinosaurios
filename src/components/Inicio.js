@@ -5,9 +5,9 @@ import "../styles/Alumno.css"
 export const Imagen = () => {
   return (
     <div class="imagen">
-      <h2></h2>
-      <h2></h2>
-      <h2></h2>
+      <h2>.</h2>
+      <h2>.</h2>
+      <h2>.</h2>
     </div>
 
   );
