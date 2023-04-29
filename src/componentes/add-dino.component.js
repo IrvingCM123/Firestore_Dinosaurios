@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import firebase from "firebase/compat/app";
 import TutorialDataService from "../servicios/dinosaurio.service.js";
 import "firebase/compat/storage";
-
+ 
 export const storage = firebase.storage();
 
 export default class AddDinosaurio extends Component {
