@@ -20,5 +20,5 @@ class KafkaService {
 
 }
 
-const fullmetalDataServiceInstance= new KafkaService();
-export default fullmetalDataServiceInstance
+const DinosauriosDataServiceInstance= new KafkaService();
+export default DinosauriosDataServiceInstance
